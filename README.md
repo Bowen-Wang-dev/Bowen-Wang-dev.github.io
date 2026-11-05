@@ -8,10 +8,14 @@ A bilingual, project-focused portfolio for software systems, practical tools, an
 
 ## Featured projects / 项目
 
-- [SW Exchange](https://github.com/Bowen-Wang-dev/SW-Exchange) — simulated exchange, order matching, wallets, ledgers, and audit trails.
-- [Currency Exchange Cost Calculator](https://github.com/Bowen-Wang-dev/Currency-exchange-cost-calculator) — forward/reverse CNY → HKD → AUD route-cost calculations.
-- [Codex Companion Controller](https://github.com/Bowen-Wang-dev/codex-companion-controller) — experimental ESP32-C3 companion, Mac Bridge, and physical interaction prototype.
-- [Codex Pager 4G](https://github.com/Bowen-Wang-dev/codex-pager-4g) — concept and roadmap for a portable AI notification device.
+| Project / 项目 | Status / 进度 |
+| --- | --- |
+| [SW Exchange](https://github.com/Bowen-Wang-dev/SW-Exchange) | v1.0.4 simulated exchange, including admin role permissions / 模拟交易系统，含管理角色权限 |
+| [Currency Exchange Cost Calculator](https://github.com/Bowen-Wang-dev/Currency-exchange-cost-calculator) | Web MVP for forward and reverse CNY → HKD → AUD calculations / Web MVP，支持该路线双向计算 |
+| [Codex Companion Controller](https://github.com/Bowen-Wang-dev/codex-companion-controller) | v0.2.14 hardware prototype with macOS and Windows hosts / 硬件原型，支持双平台主机 |
+| [Codex Pager 4G](https://github.com/Bowen-Wang-dev/codex-pager-4g) | Portable agent notifications and approvals concept / 便携 AI 提醒与审批构想 |
+| [QuestNav](https://github.com/Bowen-Wang-dev/QuestNav) | v0.1.0 mixed-reality source prototype for Quest 3 / 面向 Quest 3 的混合现实源码原型 |
+| [AI Passport Spotify Controller](https://github.com/Bowen-Wang-dev/AI-Passport-Spotify-Controller) | Windows Spotify display and remote, in design / Windows Spotify 副屏与遥控器，设计阶段 |
 
 ## Website / 网站说明
 
@@ -23,4 +27,6 @@ No build step, package installation, account connection, or API credentials are 
 
 GitHub Pages serves `main` from the repository root (`/`). This repository intentionally has **no `CNAME`** and uses the default `bowen-wang-dev.github.io` domain. Do not bind the separate LibreChat domain to this repository.
 
-Project content is a snapshot of the linked READMEs on 2026-10-31. Graphics are concepts rather than live application/device state. Update project cards, `translations`, and `projectData` together when milestones change. The public page omits personal biography, education, and location.
+Project summaries reflect the linked public repositories as checked on 2026-11-06. Status labels distinguish implemented tools, prototypes and designs. The hardware graphics are illustrations. Update the card's Chinese HTML, its entry in `translations`, and its notes in `projectData` together.
+
+项目资料核对于 2026-11-06，来源为上表公开仓库。进度标签区分已实现的工具、原型和设计方案。硬件图片均为示意。更新项目时，请同步修改卡片中文 HTML、`translations` 及 `projectData` 中的双语详情。
